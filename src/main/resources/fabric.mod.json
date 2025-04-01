@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "practicemod",
+	"version": "${version}",
+	"name": "Practice Mod",
+	"description": "Practice Mod. To practice and learning modding with Fabric.",
+	"authors": [
+		"Abror Patidinov"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/AbrorPatidinov/fabric-practice-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/practice-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.abror.practicemod.PracticeMod"
+		],
+		"fabric-datagen": [
+			"net.abror.practicemod.PracticeModDataGenerator"
+		],
+		"client": [
+			"net.abror.practicemod.PracticeModClient"
+		]
+	},
+	"mixins": [
+		"practice-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
