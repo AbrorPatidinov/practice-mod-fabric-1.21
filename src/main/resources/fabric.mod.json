@@ -12,7 +12,7 @@
 		"sources": "https://github.com/AbrorPatidinov/fabric-practice-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/practice-mod/icon.png",
+	"icon": "assets/practicemod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
