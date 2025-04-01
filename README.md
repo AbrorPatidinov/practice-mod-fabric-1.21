@@ -51,5 +51,5 @@ Before you start, ensure you have the following:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/practice-mod.git
+   git clone https://github.com/AbrorPatidinov/practice-mod-fabric-1.21.git
    cd practice-mod
